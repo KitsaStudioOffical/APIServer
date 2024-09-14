@@ -9,7 +9,11 @@ import argparse
 import uvicorn
 
 # Initialize FastAPI and Faker
-app = FastAPI()
+app = FastAPI(
+    title="ServerAPI",
+    description="API in Python. FastAPI is used.\nThere are functions for getting fake names, random numbers, and so on.",
+    version="0.2"
+)
 fake = Faker()
 
 # Define the data model for generating random numbers
