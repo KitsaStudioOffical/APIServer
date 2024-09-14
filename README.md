@@ -2,7 +2,7 @@ API in Python. FastAPI is used.
 
 There are functions for getting fake names, random numbers, and so on.
 
-Current API version: 0.1.
+Current API version: 0.2.
 
 # Installing
 
